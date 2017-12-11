@@ -42,6 +42,15 @@ class FurnitureDetailVC: UIViewController {
         let alertController = UIAlertController(title: "", message: "", preferredStyle: .actionSheet)
         let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
         alertController.addAction(cancelAction)
+        let cameraAction = UIAlertAction(title: "camera", style: .default, handler: { action in
+            print("user chose camera")
+        })
+        alertController.addAction(cameraAction)
+        
+        let photoLibraryAction = UIAlertAction(title: "photo Library", style: .default, handler: { action in
+            print("user chose photo Library")
+        })
+        alertController.addAction(photoLibraryAction)
         
         present(alertController, animated: true, completion: nil)
     }
