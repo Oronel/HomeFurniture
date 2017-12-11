@@ -311,8 +311,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2VVP6G8S3J;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Furniture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roncode.Furniture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,8 +327,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2VVP6G8S3J;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Furniture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roncode.Furniture;
 				PRODUCT_NAME = "$(TARGET_NAME)";

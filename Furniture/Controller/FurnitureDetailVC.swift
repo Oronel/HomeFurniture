@@ -39,21 +39,14 @@ class FurnitureDetailVC: UIViewController {
     }
     
     @IBAction func choosePhotoButtonTapped(_ sender: Any) {
+        let alertController = UIAlertController(title: "", message: "", preferredStyle: .actionSheet)
+        let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
+        alertController.addAction(cancelAction)
         
+        present(alertController, animated: true, completion: nil)
     }
     
     @IBAction func actionButtonTapped(_ sender: Any) {
         
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
